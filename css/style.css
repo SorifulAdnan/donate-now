@@ -1,3 +1,47 @@
 body{
     font-family: 'PT Serif', serif;
+    margin: 0;
 }
+/* Hero section start */
+.hero-section{
+    background-image: url(/images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.hero-text{
+    text-align: center;
+}
+.hero-text h1{
+    color: white;
+    font-size: 45px;
+}
+.hero-text p{
+    color: white;
+    font-size: 20px;
+    padding-bottom:12px;
+}
+.hero-text a{
+    color: white;
+    background-color: #FF5959;
+    font-size: 20Px;
+    padding: 12px 16px 12px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+/* Hero section end */
+/* Footer area start */
+footer{
+    text-align: center;
+    background-color: #0B0D17;
+    padding: 25px;
+}
+footer h3{
+    color: #FF5959;
+    font-family: "Lobster", cursive;
+}
+footer p{
+    color: #D9DBE1;
+    font-size: 12px;
+}
+/* Footer area end */
