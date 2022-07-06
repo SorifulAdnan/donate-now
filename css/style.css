@@ -30,6 +30,55 @@ body{
     text-decoration: none;
 }
 /* Hero section end */
+
+/* Donate Area Start */
+.donate-area{
+    text-align: center;
+}
+.donate-area-info h2{
+    color: #121212;
+    font-size: 30px;
+}
+.donate-area-info p{
+    color: #707070;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+.donate-amount{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.donate-amount p{
+    padding: 20px 20px 20px 20px;
+    margin: 0 5px 0 5px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.donate-amount .selected-donate-amount{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+    border-radius: 5px;
+}
+.form-area form input{
+    text-align: center;
+    color: #B3B3B3;
+    border: none;
+}
+.form-area form hr{
+    width: 50%
+}
+.form-area form button{
+    color: white;
+    background-color: #FF5959;
+    font-size: 20Px;
+    padding: 12px 16px 12px 16px;
+    margin: 10px 0 10px 0;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
 /* Footer area start */
 footer{
     text-align: center;
